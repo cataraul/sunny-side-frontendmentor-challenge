@@ -1,1 +1,0 @@
-# sunny-side-frontendmentor-challenge
