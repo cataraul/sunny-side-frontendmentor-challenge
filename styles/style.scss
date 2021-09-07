@@ -535,6 +535,13 @@ footer{
         
         }
     }
+    footer{
+        .socials{
+            .links{
+                justify-content: space-around;
+            }
+        }
+    }
 }
 
 @media only screen and (max-width:410px){
