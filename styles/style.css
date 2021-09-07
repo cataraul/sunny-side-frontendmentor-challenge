@@ -530,6 +530,9 @@ footer .socials .social-icons a:hover {
   .first-section .header h1 {
     font-size: 3rem;
   }
+  .gallery section {
+    height: 60vh;
+  }
 }
 
 @media only screen and (max-width: 890px) {
@@ -569,8 +572,9 @@ footer .socials .social-icons a:hover {
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 780px) {
   .first-section {
+    height: 90vh;
     background-image: url("images/mobile/image-header.jpg");
   }
 }
@@ -587,6 +591,17 @@ footer .socials .social-icons a:hover {
 @media only screen and (max-width: 505px) {
   .first-section .header h1 {
     font-size: 2.2rem;
+  }
+  .gallery section {
+    height: 50vh;
+  }
+  .gallery .transform {
+    background: url("images/mobile/image-transform.jpg");
+    background-size: 100% 100%;
+  }
+  .gallery .stand-out {
+    background: url("images/mobile/image-stand-out.jpg");
+    background-size: 100% 100%;
   }
   .testimonials {
     width: 100%;
@@ -605,6 +620,10 @@ footer .socials .social-icons a:hover {
   .testimonials .testimonials-container .testimonial p {
     font-size: 0.8rem;
     margin-bottom: 0.2rem;
+  }
+  footer .socials .links {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
