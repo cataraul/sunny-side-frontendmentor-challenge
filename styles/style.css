@@ -57,7 +57,7 @@
 }
 
 .first-section {
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   background: url("images/desktop/image-header.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -79,7 +79,7 @@
 }
 
 .first-section .nav-bar {
-  height: 10vh;
+  padding-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -187,7 +187,7 @@
           flex-direction: column;
   padding: 2rem;
   position: relative;
-  font-family: 'Fraunces',serif;
+  font-family: "Fraunces", serif;
 }
 
 .gallery .text h2 {
@@ -308,7 +308,7 @@
 
 .testimonials {
   height: 60vh;
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   background-color: white;
 }
 
@@ -384,7 +384,7 @@
 }
 
 footer {
-  font-family: 'Barlow',sans-serif;
+  font-family: "Barlow", sans-serif;
   height: 70vh;
 }
 
@@ -530,9 +530,6 @@ footer .socials .social-icons a:hover {
   .first-section .header h1 {
     font-size: 3rem;
   }
-  .gallery section {
-    height: 60vh;
-  }
 }
 
 @media only screen and (max-width: 890px) {
@@ -540,7 +537,7 @@ footer .socials .social-icons a:hover {
     text-align: center;
   }
   footer {
-    font-family: 'Barlow',sans-serif;
+    font-family: "Barlow", sans-serif;
     height: 70vh;
   }
   footer .footer-gallery {
@@ -572,9 +569,8 @@ footer .socials .social-icons a:hover {
   }
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 700px) {
   .first-section {
-    height: 90vh;
     background-image: url("images/mobile/image-header.jpg");
   }
 }
@@ -591,6 +587,12 @@ footer .socials .social-icons a:hover {
 @media only screen and (max-width: 505px) {
   .first-section .header h1 {
     font-size: 2.2rem;
+  }
+  .gallery .text h2 {
+    font-size: 1.5em;
+  }
+  .gallery .text p {
+    font-size: 0.8em;
   }
   .gallery section {
     height: 50vh;
@@ -612,6 +614,9 @@ footer .socials .social-icons a:hover {
   }
   .testimonials .testimonials-header h2 {
     font-size: 1rem;
+  }
+  .testimonials .testimonials-container {
+    width: 100%;
   }
   .testimonials .testimonials-container .container {
     max-width: 20rem;
@@ -637,8 +642,10 @@ footer .socials .social-icons a:hover {
 }
 
 @media only screen and (max-width: 360px) {
+  .first-section .header h1 {
+    font-size: 1rem;
+  }
   .testimonials {
-    width: 100%;
     height: 65rem;
   }
   .testimonials .testimonials-container .container {
@@ -650,11 +657,8 @@ footer .socials .social-icons a:hover {
     font-weight: 400;
     margin-bottom: 0.2rem;
   }
-}
-
-@media only screen and (max-width: 285px) {
-  .first-section .header h1 {
-    font-size: 1rem;
+  .gallery {
+    height: auto;
   }
   .gallery .description {
     max-width: 16rem;
@@ -674,6 +678,9 @@ footer .socials .social-icons a:hover {
     background-image: url("images/mobile/image-stand-out.jpg");
     background-size: 100% 100%;
   }
+}
+
+@media only screen and (max-width: 285px) {
   .testimonials .testimonials-container .container {
     max-width: 15rem;
     margin: 0 auto;
